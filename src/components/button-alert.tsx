@@ -20,13 +20,13 @@ export const ButtonAlert = ({className, value}: {className: string, value: strin
     const handleDownload = () => {
         // Create a hidden anchor element
         const link = document.createElement("a");
-        link.href = "/zenspire.apk";
-        link.download = "zenspire.apk";
+        link.href = "/dentalint.apk";
+        link.download = "dentalint.apk";
         link.click();
         setTimeout(() => {
           toast({
             title: "Berhasil Download Aplikasi",
-            description: "Kamu telah berhasil men-download aplikasi Zenspire, silahkan tunggu proses selesai",
+            description: "Kamu telah berhasil men-download aplikasi Dentalint, silahkan tunggu proses selesai",
           });
         }, 800)
 
