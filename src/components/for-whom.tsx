@@ -13,25 +13,31 @@ export default function ForWhom() {
         </div>
         <div className="max-w-6xl mx-auto px-8 -mt-16 z-[20] relative">
             <div className="z-[10] flex flex-wrap justify-center lg:justify-between items-center">
-                <div className="p-6 max-w-xs flex flex-col gap-4 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
-                    <p className="text-2xl font-semibold">Parents</p>
-                    <p className="text-justify">Help monitor your childrens dental health with early cavity detection and regular care schedules.</p>
-                    <div className="h-48 w-full">
-                        <Image className="w-full h-full object-cover object-top" src={"/parents.jpg"} width={400} height={300} alt="for-whom-parents"/>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <div className="p-6 max-w-xs flex flex-col gap-4 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
+                        <p className="text-2xl font-semibold">Parents</p>
+                        <p className="text-justify">Help monitor your childrens dental health with early cavity detection and regular care schedules.</p>
+                        <div className="h-48 w-full">
+                            <Image className="w-full h-full object-cover object-top" src={"/parents.jpg"} width={400} height={300} alt="for-whom-parents"/>
+                        </div>
                     </div>
                 </div>
-                <div className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
-                    <p className="text-2xl font-semibold">Adults</p>
-                    <p className="text-justify">Prevent further dental issues with regular check-ups and early cavity detection.</p>
-                    <div className="h-48 w-full">
-                        <Image className="w-full h-full object-cover object-top" src={"/adults.jpg"} width={400} height={300} alt="for-whom-adults"/>
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <div data-aos="fade-up" data-aos-delay="300" className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
+                        <p className="text-2xl font-semibold">Adults</p>
+                        <p className="text-justify">Prevent further dental issues with regular check-ups and early cavity detection.</p>
+                        <div className="h-48 w-full">
+                            <Image className="w-full h-full object-cover object-top" src={"/adults.jpg"} width={400} height={300} alt="for-whom-adults"/>
+                        </div>
                     </div>
                 </div>
-                <div className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
-                    <p className="text-2xl font-semibold">Elderly Caregivers</p>
-                    <p className="text-justify">Simplify dental health monitoring for elderly parents or relatives with the right detection and care tools.</p>
-                    <div className="h-48 w-full">
-                        <Image className="w-full h-full object-cover object-top" src={"/elderly.jpg"} width={400} height={300} alt="for-whom-delderly"/>
+                <div data-aos="fade-up" data-aos-delay="500">
+                    <div data-aos="fade-up" data-aos-delay="500" className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
+                        <p className="text-2xl font-semibold">Elderly Caregivers</p>
+                        <p className="text-justify">Simplify dental health monitoring for elderly parents or relatives with the right detection and care tools.</p>
+                        <div className="h-48 w-full">
+                            <Image className="w-full h-full object-cover object-top" src={"/elderly.jpg"} width={400} height={300} alt="for-whom-delderly"/>
+                        </div>
                     </div>
                 </div>
             </div>

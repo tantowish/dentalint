@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ButtonAlert } from "./button-alert";
 
+
 export default function Hero() {
   return (
     <section id="home" className="max-w-6xl mx-auto flex flex-wrap justify-center pt-24 lg:pt-32 px-4">
@@ -13,8 +14,8 @@ export default function Hero() {
         </div>
         <div className="relative w-full">
             <div className="flex flex-wrap justify-center">
-                <Image className="z-[10] max-w-64 lg:max-w-none" src={"/hero.png"} width={400} height={400} alt="dentalint-hero"/>
-                <Image className="absolute bottom-0 z-[0]" src={"/blop-hero.png"} width={900} height={600} alt="blop-hero"/>
+                <Image data-aos="fade-up" className="z-[10] max-w-64 lg:max-w-none" src={"/hero.png"} width={400} height={400} alt="dentalint-hero"/>
+                <Image data-aos="fade-up" data-aos-delay="500" className="absolute bottom-0 z-[0]" src={"/blop-hero.png"} width={900} height={600} alt="blop-hero"/>
             </div>
         </div>
     </section>

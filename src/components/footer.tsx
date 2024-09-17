@@ -5,9 +5,11 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-        <div className="px-8 flex flex-col gap-4 lg:gap-8 justify-center items-center bg-gradient-to-r from-[#7F8FBE] to-[#4862A8] w-full py-16 h-60 lg:h-96">
-            <h1 className="text-white text-2xl lg:text-5xl text-center">Download Dentalint Now!</h1>
-            <ButtonAlert className='px-10 lg:px-14 py-4 bg-white rounded-full text-[#394E85] text-xl font-bold hover:bg-[#c5cfeb] transition-all' value="Get App"/>
+        <div className="px-8 flex flex-col justify-center items-center bg-gradient-to-r from-[#7F8FBE] to-[#4862A8] w-full py-16 h-60 lg:h-96">
+            <div data-aos="zoom-in-up" className="flex flex-col justify-center items-center gap-4 lg:gap-8">
+                <h1 className="text-white text-2xl lg:text-4xl text-center">Download Dentalint Now!</h1>
+                <ButtonAlert className='px-8 lg:px-12 py-4 bg-white rounded-full text-[#394E85] text-lg font-bold hover:bg-[#c5cfeb] transition-all' value="Get App"/>
+            </div>
         </div>
         <div className="px-8 py-6 max-w-6xl mx-auto">
             <div className="flex flex-wrap flex-col gap-8 lg:flex-row lg:justify-between lg:items-center">
