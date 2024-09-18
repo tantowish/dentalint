@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${nunitoSans.className} antialiased overflow-x-auto`}
+        className={`${nunitoSans.className} antialiased overflow-x-hidden`}
       >
         {children}
         <Toaster />

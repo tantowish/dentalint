@@ -15,6 +15,7 @@ export default function Home() {
     AOS.init({
       duration: 500,
       easing: "ease-out-cubic",
+      once: true
     });
   }, []);
   return (
