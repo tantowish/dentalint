@@ -9,39 +9,39 @@ export default function Feature() {
         </div>
         <div className="flex flex-col gap-8 pt-16 lg:pb-16 pb-8">
             <div className="flex flex-wrap">
-                <div data-aos="fade-up-right" className="w-full lg:w-1/2 relative">
+                <div data-aos="fade-up" data-aos-delay="100" className="w-full lg:w-1/2 relative">
                     <Image className="absolute z-0 max-w-80 lg:max-w-none left-0 lg:-left-12" src={"/polygon.png"} width={500} height={500} alt="polygon"/>
                     <div className="w-full flex flex-wrap justify-center">
                         <Image className="max-h-96 lg:max-h-none w-auto lg:w-80 z-[10]" src={"/capture.png"} width={600} height={600} alt="features-capture"/>
                     </div>
                 </div>
-                <div data-aos="fade-up-left" className="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-4 justify-center p-8 text-center lg:text-left">
+                <div data-aos="fade-up" data-aos-delay="100" className="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-4 justify-center p-8 text-center lg:text-left">
                     <h2 className="text-2xl lg:text-4xl font-semibold">Capture</h2>
                     <p className="w-full h-0.5 bg-[#ACB0CB]"></p>
                     <p className="text-[#20253A] max-w-2xl font-semibold leading-relaxed">Detect caries early with the AI-powered photo analysis feature. Simply take a picture of your teeth, and let the app analyze and identify potential cavities for timely treatment.</p>
                 </div>
             </div>
             <div className="flex flex-wrap">
-                <div data-aos="fade-up-left" className="w-full lg:w-1/2 relative order-1 lg:order-2">
+                <div data-aos="fade-up" data-aos-delay="100" className="w-full lg:w-1/2 relative order-1 lg:order-2">
                     <Image className="absolute z-0 max-w-80 lg:max-w-none lg:-right-8 lg:top-20" src={"/polygon.png"} width={500} height={500} alt="polygon"/>
                     <div className="w-full flex flex-wrap justify-center">
                         <Image className="max-h-96 lg:max-h-none w-auto lg:w-72 z-[10]" src={"/chatbot.png"} width={500} height={500} alt="features-capture"/>
                     </div>
                 </div>
-                <div data-aos="fade-up-right" className="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-4 justify-center p-8 text-center lg:text-left order-2 lg:order-1">
+                <div data-aos="fade-up" data-aos-delay="100" className="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-4 justify-center p-8 text-center lg:text-left order-2 lg:order-1">
                     <h2 className="text-2xl lg:text-4xl font-semibold">Chatbot</h2>
                     <p className="w-full h-0.5 bg-[#ACB0CB]"></p>
                     <p className="text-[#20253A] max-w-2xl font-semibold leading-relaxed">Get instant answers to your dental health questions with our smart chatbot, available 24/7 to provide guidance and support.</p>
                 </div>
             </div>
             <div className="flex flex-wrap">
-                <div data-aos="fade-up-right" className="w-full lg:w-1/2 relative">
+                <div data-aos="fade-up" data-aos-delay="100" className="w-full lg:w-1/2 relative">
                     <Image className="absolute z-0 max-w-80 lg:max-w-none left-0 lg:-left-12" src={"/polygon.png"} width={500} height={500} alt="polygon"/>
                     <div className="w-full flex flex-wrap justify-center">
                         <Image className="max-h-96 lg:max-h-none w-auto lg:w-80 z-[10]" src={"/daily.png"} width={600} height={600} alt="features-capture"/>
                     </div>
                 </div>
-                <div data-aos="fade-up-left" className="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-4 justify-center p-8 text-center lg:text-left">
+                <div data-aos="fade-up" data-aos-delay="100" className="w-full lg:w-1/2 flex flex-col gap-3 lg:gap-4 justify-center p-8 text-center lg:text-left">
                     <h2 className="text-2xl lg:text-4xl font-semibold">Daily Notes</h2>
                     <p className="w-full h-0.5 bg-[#ACB0CB]"></p>
                     <p className="text-[#20253A] max-w-2xl font-semibold leading-relaxed">Track your daily dental habits with ease. Record your brushing routine, dietary intake, and other important activities to maintain optimal oral hygiene.</p>
