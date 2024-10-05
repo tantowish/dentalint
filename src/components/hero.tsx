@@ -14,7 +14,9 @@ export default function Hero() {
         </div>
         <div className="relative w-full">
             <div className="flex flex-wrap justify-center">
-                <Image loading="eager" data-aos="fade-up" className="z-[10] max-w-64 lg:max-w-none" src={"/hero.png"} width={400} height={400} alt="dentalint-hero"/>
+                <div data-aos="fade-up" className="z-[10] max-w-64 lg:max-w-none" >
+                    <Image loading="eager" className="hover:-translate-y-4 transition ease-in-out duration-300" src={"/hero.png"} width={400} height={400} alt="dentalint-hero"/>
+                </div>
                 <Image loading="eager" data-aos="fade-up" data-aos-delay="500" className="absolute bottom-0 z-[0]" src={"/blop-hero.png"} width={900} height={600} alt="blop-hero"/>
             </div>
         </div>

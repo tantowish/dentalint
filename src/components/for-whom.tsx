@@ -23,7 +23,7 @@ export default function ForWhom() {
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300">
-                    <div data-aos="fade-up" data-aos-delay="300" className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
+                    <div className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
                         <p className="text-2xl font-semibold">Adults</p>
                         <p className="text-justify">Prevent further dental issues with regular check-ups and early cavity detection.</p>
                         <div className="h-48 w-full">
@@ -32,7 +32,7 @@ export default function ForWhom() {
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="500">
-                    <div data-aos="fade-up" data-aos-delay="500" className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
+                    <div className="p-6 max-w-xs flex flex-col gap-3 bg-white rounded-2xl mb-6 lg:mb-0 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
                         <p className="text-2xl font-semibold">Elderly Caregivers</p>
                         <p className="text-justify">Simplify dental health monitoring for elderly parents or relatives with the right detection and care tools.</p>
                         <div className="h-48 w-full">
