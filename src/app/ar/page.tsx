@@ -1,6 +1,5 @@
 'use client'
 
-import { Button } from '@/components/ui/button';
 import { steps } from '@/data/ar';
 import Image from 'next/image';
 import { useRef, useEffect, useState } from 'react';
@@ -41,7 +40,7 @@ export default function CameraPage() {
             <div className='h-[20%]'>
                 <div className='flex flex-wrap justify-between px-4 pt-8 pb-4'>
                     {steps.map(step => (
-                        <div className={`rounded-full border-2 border-[#394E85] text-[#394E85] h-9 w-9 flex justify-center items-center ${step.step == whichStep ? "bg-[#394E85] text-white" : ""}`}>{step.step}</div>
+                        <div key={step.step} className={`rounded-full border-2 border-[#394E85] text-[#394E85] h-9 w-9 flex justify-center items-center ${step.step == whichStep ? "bg-[#394E85] text-white" : ""}`}>{step.step}</div>
                     ))}
                 </div>
                 <p className='text-center px-4'>{steps[whichStep-1].description}</p>
